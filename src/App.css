@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+
+.Baground {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.Posts {
+  border: 2px solid black;
+  display: flex;  
+}
+
+.Containerr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.TextContainer{
+margin-left: 9px;
+flex-wrap: wrap;
+padding-top: 40px;
+}
+.ChildrenContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
